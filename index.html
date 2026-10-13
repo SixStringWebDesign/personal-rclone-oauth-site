@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Information about a personal Google Drive OAuth client used by rclone on a Linux computer.">
+  <title>Personal Google Drive rclone | Application information</title>
+  <style>
+    :root{color-scheme:light dark}body{font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;max-width:740px;margin:4rem auto;padding:0 1.25rem;color:CanvasText;background:Canvas}h1{line-height:1.2}h1,h2{letter-spacing:-.025em}header{border-bottom:1px solid #8886;padding-bottom:1.25rem}footer{border-top:1px solid #8886;margin-top:3rem;padding-top:1.1rem;font-size:.92rem}a{color:LinkText}code{background:Field;padding:.14em .35em;border-radius:.2em}p{margin:1rem 0}ul{padding-left:1.5rem}
+  </style>
+</head>
+<body>
+<header>
+<h1>Personal Google Drive rclone</h1>
+<p>Information about a personally operated Google Drive connection</p>
+</header>
+<main>
+<h2>What this application does</h2>
+<p>This is a personal Google OAuth application used to authorize <a href="https://rclone.org/drive/">rclone</a>, an open-source file synchronization and mount tool, to access its owner's Google Drive from a Linux computer.</p>
+<p>It enables the owner to browse, open, create, update, move, and delete their own Google Drive files through rclone, including a locally mounted Drive folder in the Linux file manager. It is not a general-purpose product or a public service.</p>
+<h2>Why Google Drive access is requested</h2>
+<p>The client requests Google Drive access because rclone needs to read and write the files the owner chooses to work with. The requested <code>https://www.googleapis.com/auth/drive</code> scope permits access to Drive files. Access is granted only after the owner signs in with Google and approves the permission request.</p>
+<h2>Who can use it</h2>
+<p>The application is intended for the owner's personal use, not for unrelated users. It has no public login, registration, or account management system.</p>
+<h2>Data handling</h2>
+<p>The OAuth application connects rclone directly to the Google Drive API. Authentication tokens are stored in the owner's local rclone configuration, not on this website. This informational website does not ask for Google credentials or receive the contents of Google Drive files.</p>
+<p>For information on access, storage, sharing, and revocation, see the <a href="./privacy.html">Privacy Policy</a>.</p>
+</main>
+<footer>
+<p>Independent personal configuration of rclone. Not affiliated with Google or the rclone project.</p>
+<p><a href="./privacy.html">Privacy Policy</a> · <a href="https://github.com/SixStringWebDesign/personal-rclone-oauth-site/issues">Contact / report a concern</a></p>
+</footer>
+</body></html>
